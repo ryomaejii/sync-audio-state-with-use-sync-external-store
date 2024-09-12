@@ -1,5 +1,11 @@
+import { AudioPlayer } from './components/AudioPlayer';
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <AudioPlayer />
+    </>
+  );
 }
 
 export default App;
