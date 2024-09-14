@@ -13,6 +13,7 @@ export function AudioPlayerBad() {
 
   return (
     <div>
+      <h2>Bad Audio Player</h2>
       <p>The audio is {isPlaying ? 'playing' : 'paused'}.</p>
       <audio src={drumSound} controls onPlay={onPlay} onPause={onPause} />
     </div>
