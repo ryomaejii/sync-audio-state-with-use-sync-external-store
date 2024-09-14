@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import drumSound from '../assets/ drum.mp3';
+import drumSound from '../assets/drum.mp3';
 
 export function AudioPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
