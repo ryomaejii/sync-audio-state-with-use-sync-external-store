@@ -1,9 +1,9 @@
-import { AudioPlayer } from './components/AudioPlayer';
+import { AudioPlayerBad } from './components/AudioPlayerBad';
 
 function App() {
   return (
     <>
-      <AudioPlayer />
+      <AudioPlayerBad />
     </>
   );
 }
