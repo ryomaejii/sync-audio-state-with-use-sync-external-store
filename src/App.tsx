@@ -1,4 +1,4 @@
-import { AudioPlayerBad } from './components/AudioPlayerBad';
+import { AudioPlayerManual } from './components/AudioPlayerManual';
 import { AudioPlayerWithRefAndState } from './components/AudioPlayerWithRefAndState';
 import { AudioPlayerWithState } from './components/AudioPlayerWithState';
 import { AudioPlayerWithSyncExternalStore } from './components/AudioPlayerWithSyncExternalStore';
@@ -6,7 +6,7 @@ import { AudioPlayerWithSyncExternalStore } from './components/AudioPlayerWithSy
 function App() {
   return (
     <>
-      <AudioPlayerBad />
+      <AudioPlayerManual />
       <AudioPlayerWithState />
       <AudioPlayerWithRefAndState />
       <AudioPlayerWithSyncExternalStore />
